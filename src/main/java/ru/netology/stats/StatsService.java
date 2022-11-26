@@ -12,7 +12,7 @@ public class StatsService {
 
 
     public int averageSalesSum(int[] sales) {
-        int average = salesSum(sales) / 12;
+        int average = salesSum(sales) / sales.length;
         return average;
     }
 
